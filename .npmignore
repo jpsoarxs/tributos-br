@@ -1,0 +1,28 @@
+# Ignorar a pasta de código-fonte TypeScript
+/src
+
+# Ignorar o arquivo de configuração do TypeScript
+/tsconfig.json
+
+# Ignorar a pasta node_modules (não será publicada)
+node_modules
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Ignorar o arquivo de build (o NPM já vai gerar o código compilado, com base no "main" no package.json)
+dist/
+
+# Ignorar testes e outros arquivos de desenvolvimento
+/tests/
+*.ts
+
+# Outras coisas que normalmente não precisam ser publicadas
+*.md

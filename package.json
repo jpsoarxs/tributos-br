@@ -1,0 +1,35 @@
+{
+  "name": "tributos-br",
+  "version": "1.0.0",
+  "description": "Biblioteca para obter informações sobre tributos brasileiros, incluindo tabelas de imposto de renda.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"No test specified\" && exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tributos",
+    "impostos",
+    "brasil",
+    "imposto de renda",
+    "govbr",
+    "financeiro"
+  ],
+  "author": "Joao Pedro Soares <dev.jpsdm@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpsoarxs/tributos-br.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpsoarxs/tributos-br/issues"
+  },
+  "homepage": "https://github.com/jpsoarxs/tributos-br#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
